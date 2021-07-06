@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/pricing-table.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .center1 {
+            position: fixed;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            text-align: center;
+            background-color: #ec615b;
+            color: white;
+            font-size: 17px;
+        }
+        @media (max-width: 768px) {
+            .center1 {
+            position: relative;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            text-align: center;
+            background-color: #ec615b;
+            color: white;
+            font-size: 17px;
+        }
+        }
+    </style>
+</head>
+
+<body>
+    {{!-- Navbar section start --}}
+    <div class="container-fluid navbar-style py-3">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="/" id="logo">EasyMechanic</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link px-4" aria-current="page" href="/">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link px-4" href="/#aboutid">About Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active px-4" href="/pricing">Pricing</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link px-4" href="/#serviceid">Services</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link px-4" href="/#contactid">Contact Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link px-4" href="/register">Sign Up</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link px-4" href="/login">Login</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    {{!-- Navbar section end --}}
+    <div class="pricing-plan-container">
+        <section class="pricing-plan">
+            <div class="pricing-plan__header">
+                <h1 class="pricing-plan__title">Bike Servicing</h1>
+                <h2 class="pricing-plan__summary">Rs 299* — Rs 1200*</h2>
+            </div>
+            <div class="pricing-plan__description">
+                <ul class="pricing-plan__list">
+                    <li class="pricing-plan__features">Moped Servicing Rs 299* - Rs 449*</li>
+                    <li class="pricing-plan__features">Motorcycle Servicing Rs 299* - Rs 499*</li>
+                    <li class="pricing-plan__features">High Cc Servicing Rs 699* - Rs 1199*</li>
+                </ul>
+            </div>
+            <div class="pricing-plan__actions">
+                <p class="pricing-plan__cost">Rs 599*</p>
+                <p class="pricing-plan__text">per month</p>
+                <a href="./" class="pricing-plan__button">Purchase</a>
+                <p class="pricing-plan__text">Minimum spend Rs 7.2K* over 12 months</p>
+            </div>
+        </section>
+        <section class="pricing-plan pricing-plan--highlighted">
+            <div class="pricing-plan__special-text">Recommended</div>
+            <div class="pricing-plan__header">
+                <h1 class="pricing-plan__title">Car Servicing</h1>
+                <h2 class="pricing-plan__summary">Rs 800* — Rs 2000*</h2>
+            </div>
+            <div class="pricing-plan__description">
+                <ul class="pricing-plan__list">
+                    <li class="pricing-plan__features">Hatchback Servicing : Rs 800* - Rs 1500*</li>
+                    <li class="pricing-plan__features">Sedan Servicing : Rs 800* - Rs 1800*</li>
+                    <li class="pricing-plan__features">SUV Servicing : Rs 1000* - Rs 2000*</li>
+                </ul>
+            </div>
+            <div class="pricing-plan__actions">
+                <p class="pricing-plan__cost">Rs 1199*</p>
+                <p class="pricing-plan__text">per month</p>
+                <a href="./" class="pricing-plan__button">Purchase</a>
+                <p class="pricing-plan__text">Minimum spend Rs 14.4K* over 12 months</p>
+            </div>
+        </section>
+        <section class="pricing-plan">
+            <div class="pricing-plan__header">
+                <h1 class="pricing-plan__title">Other Car Services</h1>
+                <h2 class="pricing-plan__summary">Rs 699* — Rs 1199*</h2>
+            </div>
+            <div class="pricing-plan__description">
+                <ul class="pricing-plan__list">
+                    <li class="pricing-plan__features">Denting Painting</li>
+                    <li class="pricing-plan__features">AC Repair</li>
+                    <li class="pricing-plan__features">Car Spa</li>
+                </ul>
+            </div>
+            <div class="pricing-plan__actions">
+                <p class="pricing-plan__cost">Rs 899*</p>
+                <p class="pricing-plan__text">per month</p>
+                <a href="./" class="pricing-plan__button">Purchase</a>
+                <p class="pricing-plan__text">Minimum spend 9.6K over 12 months</p>
+            </div>
+        </section>
+    </div>
+    {{>footer}}
+</body>
+
+</html>
